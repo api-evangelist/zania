@@ -1,0 +1,77 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 3
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - other
+  - status
+  - website
+hosts:
+- host: api.zania.ai
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: zania.ai
+  role: api
+  relation: own
+- host: api.zania.app
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: zania.app
+  role: api
+  relation: other-domain
+- host: status.zania.app
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - StatusPage
+  serves:
+  - status-page
+  vendor: betterstack
+  registrable_domain: zania.app
+  role: status
+  relation: other-domain
+- host: trust.zania.ai
+  found_by:
+  - pointer
+  types:
+  - Compliance
+  serves: []
+  registrable_domain: zania.ai
+  role: other
+  relation: own
+- host: zania.ai
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - Security
+  - Newsroom
+  - Website
+  - AboutUs
+  - Pricing
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  - Contact
+  serves:
+  - docs
+  registrable_domain: zania.ai
+  role: website
+  relation: own

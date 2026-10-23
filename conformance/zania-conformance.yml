@@ -1,0 +1,27 @@
+generated: '2026-10-23'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://zania.ai/compliance/soc2
+sources:
+- https://zania.ai/compliance/soc2
+- https://zania.ai/compliance/hipaa
+- https://zania.ai/compliance/iso-27001
+- https://zania.ai/compliance/gdpr
+standards:
+- id: soc2
+  conforms: true
+  evidence: Zania’s AI agents collect evidence across your environment, test controls with audit rigor, and drive issues to resolution so your
+    SOC 2 program stays defensible without the overhead.
+- id: hipaa
+  conforms: true
+  evidence: Zania’s AI agents collect evidence across your environment, test HIPAA safeguards and controls with rigor, and drive issues to resolution
+    so your PHI stays protected without the overhead.
+- id: iso-27001
+  conforms: true
+  evidence: Zania’s AI agents collect evidence across your environment, test controls with audit rigor, and drive issues to resolution so your
+    ISO 27001 program stays defensible without the overhead.
+- id: gdpr
+  conforms: true
+  evidence: Zania’s AI agents collect evidence across your environment, evaluate privacy controls and workflows with rigor, and drive issues to
+    resolution so your GDPR compliance program stays defensible without the overhead.
+docs: https://zania.ai/compliance/soc2

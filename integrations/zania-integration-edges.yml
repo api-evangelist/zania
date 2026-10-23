@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/zania/integrations
+- https://n8n.io/integrations/zania/
+- https://composio.dev/toolkits/zania
+- https://monid.ai/tools/zania
+checked:
+- https://composio.dev/toolkits/zania
+- https://monid.ai/tools/zania
+- https://n8n.io/integrations/zania/
+- https://zapier.com/apps/zania/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

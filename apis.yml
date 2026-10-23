@@ -1,25 +1,112 @@
 aid: zania
+
 name: Zania
-description: 'Zania is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by nea) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://framerusercontent.com/images/udx7BUTQxXOtum6Qk4yVuhmy9Nc.png
+
+description: 'Zania provides AI‑driven compliance agents that automate third‑party risk management, security controls testing, and audit workflows. Leveraging large‑language models, Zania’s platform delivers high‑accuracy risk assessments, SOC 2, HIPAA, ISO 27001, GDPR, PCI‑DSS compliance automation, and real‑time security insights for enterprises.'
+
 url: https://raw.githubusercontent.com/api-evangelist/zania/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- AI
+- Compliance
+- Risk Management
+- GRC
+- Automation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- nea
+
 common:
+- type: WellKnown
+  url: well-known/zania-well-known.yml
+- type: Compliance
+  url: https://trust.zania.ai/
+- type: Conformance
+  url: conformance/zania-conformance.yml
+- type: Hosts
+  url: hosts/zania-hosts.yml
+- type: Vendors
+  url: vendors/zania-vendors.yml
+- type: Security
+  url: https://zania.ai/security
+- type: Newsroom
+  url: https://zania.ai/newsroom
+- type: TrustCenter
+  url: security/zania-trust-center.yml
+- type: DomainSecurity
+  url: security/zania-domain-security.yml
 - type: Website
   url: https://zania.ai
+- type: AboutUs
+  url: https://zania.ai/about-us
+- type: Pricing
+  url: https://zania.ai/pricing
+- type: Blog
+  url: https://zania.ai/blog
+- type: StatusPage
+  url: https://status.zania.app
+- type: TermsOfService
+  url: https://zania.ai/terms
+- type: PrivacyPolicy
+  url: https://zania.ai/privacy
+- type: Contact
+  url: https://zania.ai/contact-us
+- type: TrustCenter
+  url: security/zania-trust-center.yml
+- type: DomainSecurity
+  url: security/zania-domain-security.yml
+- type: Website
+  url: https://zania.ai
+- type: AboutUs
+  url: https://zania.ai/about-us
+- type: Pricing
+  url: https://zania.ai/pricing
+- type: Blog
+  url: https://zania.ai/blog
+- type: StatusPage
+  url: https://status.zania.app
+- type: TermsOfService
+  url: https://zania.ai/terms
+- type: PrivacyPolicy
+  url: https://zania.ai/privacy
+- type: Contact
+  url: https://zania.ai/contact-us
+
+apis: []
+
+x-backed-by:
+- nea
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The homepage is a Framer‑generated site with no machine‑readable API spec linked.
+  evidence:
+    - url: https://zania.ai
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
